@@ -1,9 +1,3 @@
-// ------------------------------------------------------------------------------
-// Assignment 2
-// Written by: Vaansh Lakhwara (ID: 40114764)
-// For SOEN 287 Section Q–2202 Fall 2020
-// -----------------------------------------------------------------------------
-
 const validate = document.getElementById('val');
 const usr = document.getElementById('us');
 const pwd = document.getElementById('pw');
