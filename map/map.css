@@ -1,0 +1,40 @@
+#mapid {
+	width: 600px;
+	height: 400px;
+	position: absolute;
+}
+
+#input {
+	padding: 16px;
+	max-width: 555px;
+	border-radius: 20px;
+	border-width: 5px;
+	border-color: rgba(60, 255, 245, 0.808);
+	color: rgba(60, 255, 245, 0.808);
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
+		sans-serif;
+	background-color: black;
+	font-weight: bolder;
+}
+
+body {
+	background-image: linear-gradient(to right, rgba(29, 98, 189, 0.993), rgba(60, 255, 245, 0.808));
+}
+
+.btn {
+	background-color: rgba(29, 98, 189, 0.993);
+	font-weight: bolder;
+	border-color: rgba(29, 98, 189, 0.993);
+	color: rgba(60, 255, 245, 0.808);
+	border-radius: 15px;
+	font-size: medium;
+}
+
+.label {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
+		sans-serif;
+	color: rgba(29, 98, 189, 0.993);
+	background-color: rgba(60, 255, 245, 0.808);
+	font-weight: bolder;
+	font-size: small;
+}
