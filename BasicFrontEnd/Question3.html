@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Question 3</title>
+  </head>
+
+  <body>
+    <h1>Apartment Search</h1>
+    <form action="" method="GET">
+      <!-- Occupant Information -->
+      <fieldset id="OccupantInfo" name="OccupantInfo">
+        <legend>Occupant's Information</legend>
+        <label>Occupant's Name</label>
+        <br />
+        <input id="firstname" name="firstname"" type=" text" placeholder="First
+        Name" required>
+        <input
+          id="lastname"
+          name="lastname"
+          type="text"
+          placeholder="Last Name"
+          required
+        />
+        <br /><br />
+        <label for="phonenum">Phone Number</label>
+        <input
+          id="phone"
+          name="phonenum"
+          type="tel"
+          placeholder="Your Phone Number"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          required
+        />
+        <label for="phonenum">(Format: 123-456-7890)</label>
+        <br /><br />
+        <label for="email">Email:</label>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="Your Email"
+          required
+        />
+      </fieldset>
+      <!-- Apartment Information -->
+      <fieldset id="AptInfo" name="AptInfo">
+        <legend>Apartment Information</legend>
+        <label>Choose apartment size:</label>
+        <br />
+        <select id="rentalterm" required>
+          <option selected>Studio</option>
+          <option>1 Bedroom Apartment</option>
+          <option>2 Bedroom Apartment</option>
+          <option>3 Bedroom Apartment</option>
+          <option>Penthouse</option>
+        </select>
+        <br /><br />
+        <label>Features:</label>
+        <br />
+        <input id="feature" type="checkbox" value="balcony" checked />
+        <label>Balcony</label>
+        <input id="feature" type="checkbox" value="high" />
+        <label>Higher Floor</label>
+        <input id="feature" type="checkbox" value="elevator" />
+        <label>Proximity to Elevators</label>
+        <br /><br />
+        <label>Start date:</label>
+        <br />
+        <input id="date" type="date" required />
+        <br /><br />
+        <label>Special Request:</label>
+        <br />
+        <textarea
+          id="request"
+          name="req"
+          rows="5"
+          cols="50"
+          placeholder="Please specify your special request here..."
+        ></textarea>
+      </fieldset>
+      <br />
+      <label>Let us find you the apartment of your dreams...</label>
+      <br />
+      <input id="submit" type="submit" value="Submit" />
+      <input id="submit" type="reset" value="Start Over" />
+    </form>
+  </body>
+</html>

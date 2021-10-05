@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Q3</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+</head>
+
+<body>
+    <div id="mapid"></div>
+    <br>
+    <fieldset id="input">
+        <legend id="title">
+            <h2>Search Address</h2>
+        </legend>
+        <input type="text" class="label" name="Address" id="add" size="43"></input>
+        <input type="button" value="Validate" id="val" class="btn" onclick="getadd()"></input>
+        <table class="Form">
+            <tr>
+                <td>Lattitude</td>
+                <td>Longitude</td>
+            </tr>
+            <tr>
+                <td><input type="text" class="label" name="Lattitude" id="lat" disabled></td>
+                <td><input type="text" class="label" name="Longitude" id="lon" disabled></td>
+        </table>
+        <div>
+            <p id="distance"></p>
+        </div>
+    </fieldset>
+    <script src="map.js"></script>
+
+    <link rel="stylesheet" href="map.css">
+</body>
+
+</html>

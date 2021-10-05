@@ -1,0 +1,59 @@
+.header {
+  width: 700px;
+  text-align: center;
+  background: lemonchiffon;
+  color: saddlebrown;
+  border: 10px dashed salmon;
+  font-size: 30px;
+}
+
+.footer {
+  width: 700px;
+  text-align: left;
+  background: blanchedalmond;
+  color: black;
+  font-size: 15px;
+}
+
+.table {
+  width: 720px;
+  border-top: 10px solid paleturquoise;
+  border-bottom: 10px dotted paleturquoise;
+  border-left: 10px dashed paleturquoise;
+  border-right: 10px double paleturquoise;
+}
+
+#boeing {
+  list-style-image: url(Question5_2.png);
+}
+
+#airbus {
+  list-style-image: url(Question5_3.png);
+}
+
+#t1 {
+  padding: 10px;
+  background-color: lightskyblue;
+  border: 5px solid deepskyblue;
+}
+
+#t2 {
+  background-color: lightgreen;
+  border: 5px solid limegreen;
+}
+#t3 {
+  background-color: lightcoral;
+  border: 5px solid crimson;
+}
+#t4 {
+  background-color: peachpuff;
+  border: 5px solid hotpink;
+}
+#t5 {
+  background-color: plum;
+  border: 5px solid purple;
+}
+#t6 {
+  background-color: gold;
+  border: 5px solid goldenrod;
+}
